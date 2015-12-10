@@ -1,0 +1,41 @@
+/* Clearix */
+.clearfix:before {content: ".";display: block;clear: both;visibility: hidden;line-height: 0px;height: 0px;} 
+.clearfix:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0px;height: 0px;} 
+.clearfix {display: block;} html[xmlns] .clearfix {display: block;} * html 
+.clearfix {height:0;}  iframe[id^="oauth2relay"] { position: fixed !important; } a{ text-decoration:none;} 
+/*Body*/
+.center{border:5px solid grey;width: 1200px;margin: 0 auto;}
+.header{display:block;border-bottom:5px solid grey;}
+.logo{display:inline-block;vertical-align:top;width:21%;text-align: center;padding: 65px 0;}
+.heading{display:inline-block;vertical-align:top;text-align:center;width:50%;margin:10px;}
+.ins_name{font:36px/50px arial black;}
+.test_title{font:28px/40px arial black;}
+.test_desc{font:16px/20px arial black;}
+.login_block{display:inline-block;vertical-align:top;width:26%;text-align:center;}
+.login_block table{text-align:center;}
+.button_block{display:block;}
+.button{display:inline-block;border: 1px solid grey;margin: 10px;background-color:grey;border-radius:5px;}
+.button:hover{background-color:#000;}
+.button a{color:#fff;text-decoration:none;font: 14px/22px arial;font-weight: bold;padding: 8px;}
+.con_button_block{display:block;text-align: center;}
+.con_button_block li:last-child{float:right;}
+.content_block{display:block;}
+.time{margin:2px 0;text-align: center;}
+/*Left Content Starts*/
+.leftt_content{display:inline-block;width:22%;vertical-align:top;}
+.q_list_block{border-bottom:5px solid grey;width:102%}
+.q_list{list-style:none;padding:30px 0;margin:0 5px;}
+.q_list a{text-decoration:none;color:#000;font: 16px/24px arial black;display: block;padding: 1%;}
+.q_list  a:hover{background-color:#A9A9A9;color:#fff;}
+.keys{}
+.keys ul{display:block;margin: 0 0 0 -36px;}
+.keys ul li{display:inline-block;vertical-align:top;margin:2px 0;}
+.keys ul li a{display:block;height:16px;width:16px;text-align:center;border: 1px solid #5A5A5A;border-radius: 14px;text-decoration: none;color: #004;padding: 2px;font:10px/16px arial black;}
+.keys ul li a:hover{background-color:rgb(17, 254, 4);color:#fff;}
+/*Right Content STARTS*/
+.right_content{display:inline-block;border-left: 5px solid grey;center;width:77%;clear:both;}
+.right_content h3{text-align:center;}
+.question_block{list-style:none;}
+.question_block li{margin: 20px 0;margin-left:-20px;}
+.question_block li textarea{width:97%;height: 150px;vertical-align: top;}
+.question_block li input{margin:5px;width:17%;}
